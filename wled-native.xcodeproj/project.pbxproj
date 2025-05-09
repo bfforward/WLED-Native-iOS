@@ -108,7 +108,7 @@
 		C99BEF542AF49513001AD80A /* DiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryService.swift; sourceTree = "<group>"; };
 		C99BEF562AF8B926001AD80A /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
 		C99BEF582AF8BA79001AD80A /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		C9A9E5BD2918D1C3005B5C22 /* wled-native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wled-native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A9E5BD2918D1C3005B5C22 /* Glow Permanent Lighting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glow Permanent Lighting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9A9E5C02918D1C3005B5C22 /* WLEDNativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLEDNativeApp.swift; sourceTree = "<group>"; };
 		C9A9E5C92918D1C4005B5C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9A9E5CE2918D1C4005B5C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -243,7 +243,7 @@
 		C9A9E5BE2918D1C3005B5C22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9A9E5BD2918D1C3005B5C22 /* wled-native.app */,
+				C9A9E5BD2918D1C3005B5C22 /* Glow Permanent Lighting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 				C946FB892B68C53600D5B00D /* OrderedCollections */,
 			);
 			productName = "wled-native";
-			productReference = C9A9E5BD2918D1C3005B5C22 /* wled-native.app */;
+			productReference = C9A9E5BD2918D1C3005B5C22 /* Glow Permanent Lighting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -581,8 +581,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RWLNCUSDCJ;
+				CURRENT_PROJECT_VERSION = 25050715;
+				DEVELOPMENT_TEAM = 63F8Y45985;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "wled-native/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -596,9 +596,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.cgagnier.wled-native";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glowpermanentlights.ios.app;
+				PRODUCT_NAME = "Glow Permanent Lighting";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -612,8 +612,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RWLNCUSDCJ;
+				CURRENT_PROJECT_VERSION = 25050715;
+				DEVELOPMENT_TEAM = 63F8Y45985;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "wled-native/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -627,9 +627,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 6.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.cgagnier.wled-native";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glowpermanentlights.ios.app;
+				PRODUCT_NAME = "Glow Permanent Lighting";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
